@@ -1,0 +1,12 @@
+# environment
+.idea/
+*~
+questions/
+
+# artifacts
+/acquisition/errors.txt
+/acquisition/usgs-minerals-africa.html
+
+# processed data
+/acquisition/data/
+/acquisition/output/

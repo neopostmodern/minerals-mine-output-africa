@@ -1,0 +1,100 @@
+.counties {
+  fill: none;
+}
+
+.key path {
+  display: none;
+}
+
+.key line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+.states {
+  stroke: #999;
+  stroke-linejoin: round;
+}
+
+.black { fill: #000000;}
+
+.title {
+  font-size: 25px;
+  font-weight: 300;
+
+}
+
+.tick text {
+  font-size: 10px;
+}
+
+.subunit {
+  cursor: crosshair;
+}
+.subunit:hover {
+  opacity: 0.5;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #fff;
+}
+
+.caption {
+  font-size: 20px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    padding: 6px;
+    font-size: 13px;
+    background-color: #000;
+    border: 1px solid white;
+    pointer-events: none;
+    color: #fff;
+}
+.tooltip-amount {
+  margin-right: 1rem;
+}
+.tooltip-amount-number {
+  width: 3.6em;
+  font-size: 200%;
+  text-align: right;
+}
+
+.svg {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.arc path {
+  stroke: white;
+  cursor: crosshair;
+}
+.arc path:hover {
+  transform: scale(1.1);
+}
+.arc text {
+  text-anchor: end;
+}
+
+#mineral-buttons > button {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#mineral-buttons > button.selected {
+  background-color: black;
+  color: white;
+}
+
+#mineral-source-table {
+  margin-top: 2rem;
+}
+#mineral-source-table th {
+  text-align: left;
+}

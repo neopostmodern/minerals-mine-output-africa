@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="small-12 large-4 columns">
+    Select a mineral
+    <div id="mineral-buttons"></div>
+    <div id="mineral-description"></div>
+    <table id="mineral-source-table">
+      <thead>
+        <tr>
+          <th style="width: 20rem;">Country</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody id="mineral-countries"></tbody>
+    </table>
+    <br/>
+    <small>Data accurate to ±1%. Data mainly from the USGS. See the [source code](https://github.com/neopostmodern/minerals-mine-output-africa).</small>
+  </div>
+  <div class="small-12 large-8 columns">
+    <div class="svg"></div>
+  </div>
+</div>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://d3js.org/d3-path.v1.min.js"></script>
+<script src="https://d3js.org/d3-shape.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
