@@ -6,4 +6,4 @@ filtering the data for specific minerals of interest and representing it in a br
 See `acquisition/` for acquisition, aggregation and filtering.  
 See `presentation/` for the interactive map.
 
-The project can be seen live on [bericht.neopostmodern.com](https://bericht.neopostmodern.com/posts/mineral-output-of-mines-in-african-countries)
+The project can be seen live on [neopostmodern.com](https://neopostmodern.com/posts/mineral-output-of-mines-in-african-countries)
